@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import {SidebarContainer,Icon,CloseIcon,SidebarMenu,SidebarLink,SidebarRoute,SideBtnWrap} from './SidebarElements'
 
 
@@ -23,4 +23,4 @@ const Sidebar = ({isOpen, toggle})=> {
     )
 }
 
-export default Sidebar
+export default Sidebar;

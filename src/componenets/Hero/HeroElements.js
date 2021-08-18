@@ -1,13 +1,12 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import ImgBg from '../../images/pizza-3.jpg';
 
-
-export const HeroContainer= styled.div`
-background:linear-gradient(to right,rgba(0,0,0,0.7),
-rgba(0,0,0,0.1)),url(${ImgBg});
-height:100vh;
-background-position:center;
-background-size:cover;
+export const HeroContainer = styled.div`
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url(${ImgBg});
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 `;
 
 export const HeroContent = styled.div`
@@ -15,7 +14,6 @@ export const HeroContent = styled.div`
   max-height: 100%;
   padding: 0rem calc((100vw - 1300px) / 2);
 `;
-
 
 export const HeroItems = styled.div`
   display: flex;
@@ -36,7 +34,6 @@ export const HeroItems = styled.div`
   }
 `;
 
-
 export const HeroH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
@@ -47,7 +44,6 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
-  // "clamp" keeps txt larg when on mobile
 `;
 
 export const HeroBtn = styled.button`
