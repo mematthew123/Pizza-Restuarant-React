@@ -25,4 +25,4 @@ const Products = ({ heading, data }) => {
   );
 };
 
-export default Products;
+export default Products
